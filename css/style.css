@@ -1,0 +1,39 @@
+body {
+    margin: 0px; /* Apagar a margem padrão do nosso site*/
+    font-family: 'MedievalSharp';  /* Define a nossa fonte como Arial */
+
+    /* Definir imagem de fundo e atributos. */
+    background-image: url(../src/image.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+/* Estilizando o header */
+header {
+    background: #ca8643;
+    top: 0px;
+    display: flex;
+    padding-left: 40px;
+}
+
+nav ul {
+    display: flex;
+    padding: 1rem;
+}
+
+nav ul li {
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Fim da estilização do header */
+
+/* Estilizar nossa DIV com ID "corpo" */
+#corpo {
+    margin-inline: 3rem;
+}
